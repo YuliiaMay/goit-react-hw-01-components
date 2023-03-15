@@ -1,0 +1,20 @@
+.item {
+    width: calc(100% / 5);
+    border: 2px solid #0070A0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 72px;
+}
+
+.name {
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0070A0;
+}

@@ -7,6 +7,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* background-color: #0070A0; */
+}
+
+.container {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 code {
@@ -26,9 +35,15 @@ p {
 
 ul,
 ol {
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+li {
+    list-style: none;
+}
+
 
 img {
   display: block;
