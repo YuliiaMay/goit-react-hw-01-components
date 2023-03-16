@@ -28,11 +28,8 @@ export const App = () => {
         title="Upload stats"
         stats={data}
       />
-      
-    
-
-    <TransactionHistory transactions={transactions} />
-    
-  </>
+  
+      <TransactionHistory transactions={transactions} />
+    </>
   );
 };
