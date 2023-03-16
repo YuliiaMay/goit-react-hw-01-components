@@ -4,8 +4,7 @@ import { FaCheckSquare, FaCircle } from 'react-icons/fa';
 
 
 export const FriendListItem = (friends) => {
-    const { avatar, name, status, id } = friends;
-    console.log(status);
+    const { avatar, name, status} = friends;
         return (
             <li className={css.item}>
                 { (status) 

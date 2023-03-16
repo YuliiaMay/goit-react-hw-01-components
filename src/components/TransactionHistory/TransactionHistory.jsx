@@ -2,7 +2,7 @@ import css from './TransactionHistory.module.css';
 import PropTypes from 'prop-types';
 
 
-export const TransactionHistory = ({transactions}) => {
+export const TransactionHistory = ({ transactions }) => {
     return (
             <table className={css.transactionHistory}>
                 <thead className={css.transactionHistoryThead}>
@@ -35,8 +35,8 @@ TransactionHistory.propTypes = {
         PropTypes.exact({
             id: PropTypes.string.isRequired,
             type: PropTypes.string.isRequired,
-            amount: PropTypes.number.isRequired,
-            currence: PropTypes.string.isRequired,
+            amount: PropTypes.string.isRequired,
+            currency: PropTypes.string.isRequired,
         })
     )
 }
