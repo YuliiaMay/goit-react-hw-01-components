@@ -1,11 +1,75 @@
-/* .statistics {}
+.statistics {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: #DEF2F7;
+    border: 1px solid #0070A0;
+    box-shadow: 24px 12px 2px 1px #0070A0;
+    align-items: center;
+    padding: 12px;
+}
 
-.title {}
+.title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0070A0;
+}
 
-.stat-list {}
+.statList {
+    display: flex;
+    flex-direction: row;
+    
+}
 
-.item {}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 80px;
 
-.label {}
+    /*  властивості переходу  */
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-.percentage {} */
+.item:first-child {
+    background-color: #b1eefa;
+}
+
+.item:nth-child(2) {
+    background-color: #F7CEDC;
+}
+
+.item:nth-child(3) {
+    background-color: #FAE173;
+}
+
+.item:nth-child(4) {
+    background-color: #a9f7b5;
+}
+
+.item:last-child {
+    background-color: #d8a5f7;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+
+.label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+
+.percentage {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0070A0;
+}

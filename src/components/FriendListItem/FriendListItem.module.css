@@ -1,11 +1,21 @@
 .item {
     width: calc(100% / 5);
-    border: 2px solid #0070A0;
+    border: 2px solid #fff;
     display: flex;
     flex-direction: column;
     gap: 8px;
     justify-content: center;
     align-items: center;
+
+    /*  властивості переходу  */
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item:hover {
+    transform: scale(1.05);
+    border: 2px solid #0070A0;
 }
 
 .avatar {
@@ -17,4 +27,18 @@
     font-size: 24px;
     font-weight: 400;
     color: #0070A0;
+}
+
+.onlineStatusIcon {
+    position: relative;
+    top: 8px;
+    left: -50px;
+    fill: #4ce35c;
+}
+
+.offlineStatusIcon {
+    position: relative;
+    top: 8px;
+    left: -50px;
+    fill: #F7859C;
 }
