@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/YuliiaMay/goit-react-hw-01-components.git/static/css/main.668be13d.css",
-    "main.js": "/YuliiaMay/goit-react-hw-01-components.git/static/js/main.aaa1d7d4.js",
-    "index.html": "/YuliiaMay/goit-react-hw-01-components.git/index.html",
-    "main.668be13d.css.map": "/YuliiaMay/goit-react-hw-01-components.git/static/css/main.668be13d.css.map",
-    "main.aaa1d7d4.js.map": "/YuliiaMay/goit-react-hw-01-components.git/static/js/main.aaa1d7d4.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.668be13d.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.aaa1d7d4.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.668be13d.css.map": "/goit-react-hw-01-components/static/css/main.668be13d.css.map",
+    "main.aaa1d7d4.js.map": "/goit-react-hw-01-components/static/js/main.aaa1d7d4.js.map"
   },
   "entrypoints": [
     "static/css/main.668be13d.css",
